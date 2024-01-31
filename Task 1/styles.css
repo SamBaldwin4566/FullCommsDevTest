@@ -1,0 +1,53 @@
+body {
+    background-color:azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+#content {
+    overflow-x:scroll;
+}
+table {
+    width:80%;
+    margin: auto;
+    table-layout: fixed;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    table {
+        width:800px;
+    }
+}
+
+
+
+
+#tableHead {
+    font-size:20px;
+    padding:6px;
+    background:grey
+}
+th {
+    padding:10px;
+}
+#tableBody {
+    text-align: center;
+}
+td {
+    padding:5px;
+}

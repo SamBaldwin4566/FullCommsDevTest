@@ -1,0 +1,33 @@
+body {
+    background-color:azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#content {
+    width:200px;
+    padding:10px;
+    margin:auto;
+}
+
+input {
+    width:100%;
+}
+
+#submit {
+    width:50%;
+    margin-top:10px;
+}
